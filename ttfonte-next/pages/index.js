@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Layout from "../components/Layout";
+import ImgCarousel from "../components/ImgCarousel";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
               src={"/imgs/stock/AdobeStock_40117273.webp"}
               layout="fill"
               objectFit="cover"
+              alt="Stock image of chocolate ice-cream."
             />
           </div>
           <h1 className={styles.topHeading}>
@@ -29,7 +31,21 @@ export default function Home() {
             pieces/hour industrial extrusion lines.
           </p>
         </div>
-        
+        <ImgCarousel
+          images={[
+            {
+              url: "/imgs/teknoice/teknoline/650-780-1000/IMG_0047_contunnel.png",
+              link: "/",
+              alt: "Tunnel",
+            },
+            {
+              url: "/imgs/teknoice/teknofreeze/2x1000/2 flavs/_MG_0010_tr.png",
+              link: "/",
+              alt: "Freezer",
+            },
+          ]}
+          num = {2}
+        />
       </Layout>
     </>
   );
