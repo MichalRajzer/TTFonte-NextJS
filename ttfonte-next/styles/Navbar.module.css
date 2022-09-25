@@ -1,0 +1,116 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  text-align: center;
+  color: #4f4f4f;
+  z-index: 1;
+}
+
+.logoWrapper {
+  position: relative;
+  width: 20%;
+  height: 100%;
+  background: inherit;
+}
+
+.navList {
+  display: flex;
+  flex-direction: row;
+  background: inherit;
+  width: 40%;
+  height: 100%;
+}
+
+.navItem {
+  position: relative;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dropdown {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  transform: translateY(
+    calc(50% + 3vh)
+  ); /* Move down by half the height and then half the height of the div above*/
+  z-index: 2;
+  min-width: 100%;
+  padding: 0vh 1vw;
+  background: #fff;
+  -webkit-transition: opacity 0.3s ease-in-out; /* Compatibility */
+  -moz-transition: opacity 0.3s ease-in-out; /* Compatibility */
+  transition: opacity 0.3s linear;
+}
+
+.navItem:hover .dropdown {
+  visibility: visible;
+  opacity: 1;
+}
+
+.dropDiv {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.navItem:hover .caret {
+  transform: rotate(90deg);
+}
+
+.caret {
+  -webkit-transition: all 0.3s ease-in-out; /* Compatibility */
+  -moz-transition: all 0.3s ease-in-out; /* Compatibility */
+  transition: all 0.3s linear;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    font-size: 1em;
+    padding: 1vh 1vw;
+    bottom: 0;
+  color: #0f0f0f;
+  }
+  .navList {
+    width: 100%;
+  }
+  .logoWrapper {
+    display: none;
+  }
+
+  .dropdown {
+    transform: translateY(calc(-50% - 3vh));
+     border-top-left-radius: 15px;
+     border-top-right-radius: 15px;
+  }
+  .navItem:hover .caret {
+    transform: rotate(-90deg);
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .navbar {
+    font-size: 1.75em;
+    padding: 1vh 5vw;
+  }
+
+  .dropdown {
+     border-bottom-left-radius: 15px;
+     border-bottom-right-radius: 15px;
+  }
+}
+
+@media screen and (min-width: 1330px) {
+  .navbar {
+    font-size: 2.5em;
+  }
+}
+
