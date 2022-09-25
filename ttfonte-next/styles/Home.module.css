@@ -32,6 +32,8 @@
   align-items: center;
   text-align: center;
   vertical-align: middle;
+  z-index: 1;
+  color: white;
 }
 
 @media screen and (max-width: 768px) {
