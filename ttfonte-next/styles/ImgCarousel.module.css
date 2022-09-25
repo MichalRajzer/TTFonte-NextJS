@@ -1,0 +1,71 @@
+.carousel {
+  position: relative;
+  margin: 0 10vw;
+  height: 80vh;
+  color: #000;
+}
+
+.leftCaret {
+  position: absolute;
+}
+
+.rightCaret {
+  position: absolute;
+}
+  .rightClickDiv {
+  cursor: pointer;
+  }
+  .leftClickDiv {
+  cursor: pointer;
+  }
+.imgWrapper {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel {
+    margin: 0 2vw;
+  }
+  .rightCaret {
+    display: none;
+  }
+
+  .leftCaret {
+    display: none;
+  }
+
+  .leftClickDiv {
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }
+  .rightClickDiv {
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    right: 0;
+    top: 0;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .carousel {
+    margin: 0 10vw;
+  }
+  .rightCaret {
+    padding: 20px;
+    right: -20px;
+    top: calc(50% - 20px);
+    transform: scale(4);
+  }
+
+  .leftCaret {
+    padding: 20px;
+    left: -20px;
+    top: calc(50% - 20px);
+    transform: scale(4);
+  }
+}
