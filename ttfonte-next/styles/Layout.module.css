@@ -1,0 +1,11 @@
+@media screen and (min-width: 769px) {
+    .content {
+    padding-top: 8vh;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+    padding-bottom: 8vh;
+}
+}
