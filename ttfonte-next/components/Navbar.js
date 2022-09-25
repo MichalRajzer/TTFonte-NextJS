@@ -1,6 +1,6 @@
 import styles from "../styles/Navbar.module.css"
 import Image from "next/image";
-import Link from "next/Link";
+import Link from "next/link";
 import { faCaretRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
