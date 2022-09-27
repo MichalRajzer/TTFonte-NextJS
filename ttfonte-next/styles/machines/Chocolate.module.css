@@ -17,16 +17,14 @@
     padding-left: 10vw;
     padding-right: 10vw;
   }
-  .grid
-  {
+  .grid {
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(4, 1fr);
     text-align: center;
     align-items: center;
   }
-  .gridImg
-  {
+  .gridImg {
     position: relative;
     height: 50vh;
   }
@@ -46,16 +44,14 @@
   .stdDesc {
     font-size: 1.75em;
   }
-    .grid
-  {
+  .grid {
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(1, 1fr);
     text-align: center;
     align-items: center;
   }
-    .gridImg
-  {
+  .gridImg {
     position: relative;
     height: 50vh;
   }
