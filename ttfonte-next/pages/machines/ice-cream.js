@@ -7,7 +7,9 @@ export default function IceCream({}) {
     <Layout>
       <div className={styles.stdPadding}>
         <div>
-          <h1 className={styles.stdHeading}>TEKNOMIX</h1>
+          <h1 className={styles.stdHeading} id="teknomix">
+            TEKNOMIX
+          </h1>
           <h2 className={styles.stdSubHeading}>Pasteurization plants:</h2>
           <div className={styles.dualImgWrapper}>
             <div className={styles.singleItem}>
@@ -43,37 +45,9 @@ export default function IceCream({}) {
           </div>
         </div>
         <div>
-          <h1 className={styles.stdHeading}>Grigoli Stick Line</h1>
-          <h2 className={styles.stdSubHeading}>Moulded stick lines:</h2>
-          <div className={styles.dualImgWrapper}>
-            <div className={styles.singleItem}>
-              <div className={styles.imgWrapper}>
-                <Image
-                  src={"/imgs/laief/GSL ROTARY.png"}
-                  layout="fill"
-                  objectFit="contain"
-                  alt="Image of the batch TEKNOMIX pasteurization plant."
-                />
-              </div>
-              <h3 className={styles.stdSubHeading}>GSL ROTARY</h3>
-              <p className={styles.stdDesc}>1 000 to 22 000 pcs/h</p>
-            </div>
-            <div className={styles.singleItem}>
-              <div className={styles.imgWrapper}>
-                <Image
-                  src={"/imgs/laief/GSL IN LINE.png"}
-                  layout="fill"
-                  objectFit="contain"
-                  alt="Image of the batch TEKNOMIX pasteurization plant."
-                />
-              </div>
-              <h3 className={styles.stdSubHeading}>GSL IN LINE</h3>
-              <p className={styles.stdDesc}>4 000 to 40 000 pcs/h</p>
-            </div>
-          </div>
-        </div>
-        <div>
-          <h1 className={styles.stdHeading}>TEKNOFREEZE</h1>
+          <h1 className={styles.stdHeading} id="teknofreeze">
+            TEKNOFREEZE
+          </h1>
           <h2 className={styles.stdSubHeading}>Freezers:</h2>
           <div className={styles.dualImgWrapper}>
             <div className={styles.singleItem}>
@@ -82,7 +56,7 @@ export default function IceCream({}) {
                   src={"/imgs/teknoice/teknofreeze/800 lobe/_MG_0006tr.png"}
                   layout="fill"
                   objectFit="contain"
-                  alt="Image of the batch TEKNOMIX pasteurization plant."
+                  alt="Image of the teknofreeze 800 freezer with lobe pump."
                 />
               </div>
               <h3 className={styles.stdSubHeading}>
@@ -100,7 +74,7 @@ export default function IceCream({}) {
                   }
                   layout="fill"
                   objectFit="contain"
-                  alt="Image of the batch TEKNOMIX pasteurization plant."
+                  alt="Image of the teknofreeze 2x1000 freezer in deep freeze mode."
                 />
               </div>
               <h3 className={styles.stdSubHeading}>
@@ -114,7 +88,9 @@ export default function IceCream({}) {
           </div>
         </div>
         <div>
-          <h1 className={styles.stdHeading}>TEKNOFILL</h1>
+          <h1 className={styles.stdHeading} id="teknofill">
+            TEKNOFILL
+          </h1>
           <h2 className={styles.stdSubHeading}>Filling lines:</h2>
           <div className={styles.dualImgWrapper}>
             <div className={styles.singleItem}>
@@ -123,7 +99,7 @@ export default function IceCream({}) {
                   src={"/imgs/teknoice/teknofill/36/TFILL 36 INTERA tr.png"}
                   layout="fill"
                   objectFit="contain"
-                  alt="Image of the batch TEKNOMIX pasteurization plant."
+                  alt="Image of the teknofill 36 filling line."
                 />
               </div>
               <h3 className={styles.stdSubHeading}>TEKNOFILL 12/18/36/VMFX</h3>
@@ -138,7 +114,7 @@ export default function IceCream({}) {
                   src={"/imgs/teknoice/teknofill/4000/IMG_3074-OKtr.png"}
                   layout="fill"
                   objectFit="contain"
-                  alt="Image of the batch TEKNOMIX pasteurization plant."
+                  alt="Image of the teknofill 4000 filling line."
                 />
               </div>
               <h3 className={styles.stdSubHeading}>TEKNOFILL 4000</h3>
@@ -149,7 +125,41 @@ export default function IceCream({}) {
           </div>
         </div>
         <div>
-          <h1 className={styles.stdHeading}>TEKNOLINE</h1>
+          <h1 className={styles.stdHeading} id="gsl">
+            Grigoli Stick Line
+          </h1>
+          <h2 className={styles.stdSubHeading}>Moulded stick lines:</h2>
+          <div className={styles.dualImgWrapper}>
+            <div className={styles.singleItem}>
+              <div className={styles.imgWrapper}>
+                <Image
+                  src={"/imgs/laief/GSL ROTARY.png"}
+                  layout="fill"
+                  objectFit="contain"
+                  alt="Image of the Grigoli Stick Line Rotary moulded stick line."
+                />
+              </div>
+              <h3 className={styles.stdSubHeading}>GSL ROTARY</h3>
+              <p className={styles.stdDesc}>1 000 to 22 000 pcs/h</p>
+            </div>
+            <div className={styles.singleItem}>
+              <div className={styles.imgWrapper}>
+                <Image
+                  src={"/imgs/laief/GSL IN LINE.png"}
+                  layout="fill"
+                  objectFit="contain"
+                  alt="Image of the Grigoli Stick Line inline moulded stick line."
+                />
+              </div>
+              <h3 className={styles.stdSubHeading}>GSL IN LINE</h3>
+              <p className={styles.stdDesc}>4 000 to 40 000 pcs/h</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h1 className={styles.stdHeading} id="teknoline">
+            TEKNOLINE
+          </h1>
           <h2 className={styles.stdSubHeading}>Extrusion lines:</h2>
           <div className={styles.dualImgWrapper}>
             <div className={styles.singleItem}>
@@ -158,7 +168,7 @@ export default function IceCream({}) {
                   src={"/imgs/teknoice/teknoline/4/IMG_2346_tr.png"}
                   layout="fill"
                   objectFit="contain"
-                  alt="Image of the batch TEKNOMIX pasteurization plant."
+                  alt="Image of the teknoline 4 extrusion line."
                 />
               </div>
               <h3 className={styles.stdSubHeading}>TEKNOLINE 4, 6, and 9</h3>
@@ -173,7 +183,7 @@ export default function IceCream({}) {
                   src={"/imgs/teknoice/teknoline/650-780-1000/IMG_0412tr.png"}
                   layout="fill"
                   objectFit="contain"
-                  alt="Image of the batch TEKNOMIX pasteurization plant."
+                  alt="Image of the teknoline extrusion line."
                 />
               </div>
               <h3 className={styles.stdSubHeading}>TEKNOLINE 650, 780, 1000</h3>
@@ -185,7 +195,9 @@ export default function IceCream({}) {
           </div>
         </div>
         <div>
-          <h1 className={styles.stdHeading}>TEKNOWRAP</h1>
+          <h1 className={styles.stdHeading} id="teknowrap">
+            TEKNOWRAP
+          </h1>
           <h2 className={styles.stdSubHeading}>Wrapping machines:</h2>
           <div className={styles.singleItem}>
             <div className={styles.imgWrapper}>
@@ -193,7 +205,7 @@ export default function IceCream({}) {
                 src={"/imgs/teknoice/teknowrap/IMG_1604-Btr.png"}
                 layout="fill"
                 objectFit="contain"
-                alt="Image of the batch TEKNOMIX pasteurization plant."
+                alt="Image of the teknowrap wrapping machine."
               />
             </div>
             <p className={styles.stdDesc}>
@@ -202,7 +214,9 @@ export default function IceCream({}) {
           </div>
         </div>
         <div>
-          <h1 className={styles.stdHeading}>Grigoli Wrapping Machine</h1>
+          <h1 className={styles.stdHeading} id="gwp">
+            Grigoli Wrapping Machine
+          </h1>
           <h2 className={styles.stdSubHeading}>Wrapping machines:</h2>
           <div className={styles.singleItem}>
             <div className={styles.imgWrapper}>
@@ -210,21 +224,25 @@ export default function IceCream({}) {
                 src={"/imgs/laief/Packing Machine.webp"}
                 layout="fill"
                 objectFit="contain"
-                alt="Image of the batch TEKNOMIX pasteurization plant."
+                alt="Image of the Grigoli Wrapping Machine."
               />
             </div>
           </div>
         </div>
         <div>
-          <h1 className={styles.stdHeading}>Auxiliary machines</h1>
+          <h1 className={styles.stdHeading} id="aux">
+            Auxiliary machines
+          </h1>
           <div className={styles.dualImgWrapper}>
             <div className={styles.singleItem}>
               <div className={styles.imgWrapper}>
                 <Image
-                  src={"/imgs/teknoice/aux_/ice cream bulks filling machine.png"}
+                  src={
+                    "/imgs/teknoice/aux_/ice cream bulks filling machine.png"
+                  }
                   layout="fill"
                   objectFit="contain"
-                  alt="Image of the batch TEKNOMIX pasteurization plant."
+                  alt="Image of the fruit feeder machine."
                 />
               </div>
               <h3 className={styles.stdSubHeading}>Fruit Feeder 1200/3000</h3>
@@ -235,7 +253,7 @@ export default function IceCream({}) {
                   src={"/imgs/teknoice/aux_/DF3000_2_hr.png"}
                   layout="fill"
                   objectFit="contain"
-                  alt="Image of the batch TEKNOMIX pasteurization plant."
+                  alt="Image of the cf3."
                 />
               </div>
               <h3 className={styles.stdSubHeading}>CF3</h3>
