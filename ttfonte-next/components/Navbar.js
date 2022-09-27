@@ -40,7 +40,7 @@ export default function Navbar ({}) {
         <div className={styles.logoWrapper}>
           <Link href="/">
             <a hrefto="/">
-              <Image src="/logo/logo.svg" layout="fill" />
+              <Image src="/logo/logo.svg" layout="fill" alt="TTFonte Logo"/>
             </a>
           </Link>
         </div>
