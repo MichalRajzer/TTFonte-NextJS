@@ -1,11 +1,15 @@
-@media screen and (min-width: 769px) {
-    .content {
-    padding-top: 8vh;
+.content {
+    color: #4f4f4f;
 }
+
+@media screen and (min-width: 769px) {
+  .content {
+    padding-top: 8vh;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .content {
+  .content {
     padding-bottom: 8vh;
-}
+  }
 }
