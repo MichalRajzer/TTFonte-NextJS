@@ -12,7 +12,7 @@ export default function IceCream({}) {
         </h1>
         <p className={styles.desc}>
           TEKNOICE is one of the largest Italian manufacturers of industrial and
-          semi-industrial ice cream machines. They have over 35 years'
+          semi-industrial ice cream machines. They have over 35 years&apos;
           experience in the ice cream sector and know-how, creativity and
           technicalinnovation research. Moreover, the great desire to improve
           the product offered has enabled them to grow rapidly and conquer the
