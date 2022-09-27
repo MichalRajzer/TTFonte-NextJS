@@ -36,14 +36,34 @@ export default function Home() {
         <ImgCarousel
           images={[
             {
+              url: "/imgs/laief/GSL ROTARY.png",
+              link: "/machines/ice-cream#gsl",
+              alt: "Image of the Grigoli Stick Line Rotary moulded stick line.",
+            },
+            {
+              url: "/imgs/teknoice/teknofreeze/2x1000/deep/IMG_1526trnosh.png",
+              link: "/machines/ice-cream#teknofreeze",
+              alt: "Image of the teknofreeze 2x1000 freezer in deep freeze mode.",
+            },
+            {
               url: "/imgs/teknoice/teknoline/650-780-1000/IMG_0047_contunnel.png",
-              link: "/",
-              alt: "Tunnel",
+              link: "/machines/ice-cream#teknoline",
+              alt: "Image of the teknoline extrusion line.",
             },
             {
               url: "/imgs/teknoice/teknofreeze/2x1000/2 flavs/_MG_0010_tr.png",
-              link: "/",
-              alt: "Freezer",
+              link: "/machines/ice-cream#teknofreeze",
+              alt: "Image of the teknofreeze 2x1000 freezer in two flavour mode.",
+            },
+            {
+              url: "/imgs/teknoice/teknomix/Teknoice HTST industrial ice cream production.png",
+              link: "/machines/ice-cream#teknomix",
+              alt: "Image of the TEKNOMIX HTST pasteurization plant.",
+            },
+            {
+              url: "/imgs/laief/Packing Machine.webp",
+              link: "/machines/ice-cream#gwp",
+              alt: "Image of the Grigoli Wrapping Machine.",
             },
           ]}
         />
