@@ -95,14 +95,24 @@ export default function Home() {
         <ImgCarousel
           images={[
             {
-              url: "/imgs/teknoice/teknoline/650-780-1000/IMG_0047_contunnel.png",
-              link: "/",
-              alt: "Tunnel",
+              url: "/imgs/packint/Packint_PressPNG.png",
+              link: "/machines/chocolate#b2b",
+              alt: "Image of a Cocoa Butter Press",
             },
             {
-              url: "/imgs/teknoice/teknofreeze/2x1000/2 flavs/_MG_0010_tr.png",
-              link: "/",
-              alt: "Freezer",
+              url: "/imgs/packint/Packint_VerticalConchePNG.png",
+              link: "/machines/chocolate#b2b",
+              alt: "Image of a Vertical Power Conche",
+            },
+            {
+              url: "/imgs/packint/Packint_TemperingPNG.png",
+              link: "/machines/chocolate#b2b",
+              alt: "Image of a Tempering Dosing Machine",
+            },
+            {
+              url: "/imgs/packint/Packint_SOTU50PNG.png",
+              link: "/machines/chocolate#sotu",
+              alt: "Images of the SOTU 50 machine from Packint Srl.",
             },
           ]}
           num={2}
