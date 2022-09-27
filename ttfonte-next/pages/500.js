@@ -2,7 +2,7 @@ import Layout from "../components/Layout";
 import { useRouter } from "next/router";
 import { useState, useEffect } from "react";
 
-export default function fourOhFour({}) {
+export default function FiveHundred({}) {
   const [redirectSeconds, setRedirectSeconds] = useState(5);
   const router = useRouter();
   useEffect(() => {

@@ -1,6 +1,6 @@
 import Layout from "../../components/Layout";
 
-export default function IceCream({}) {
+export default function Trucks({}) {
   return (
     <Layout>
       <h1

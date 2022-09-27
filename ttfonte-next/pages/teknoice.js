@@ -3,7 +3,7 @@ import styles from "../styles/Companies.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function IceCream({}) {
+export default function Teknoice({}) {
   return (
     <Layout>
       <div className={styles.stdPadding}>
