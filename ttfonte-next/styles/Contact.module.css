@@ -1,0 +1,51 @@
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  height: 92vh;
+  width: 100%;
+}
+
+@media screen and (min-width: 769px) {
+  .formLabel {
+    font-size: 2em;
+    margin-top: 2vh;
+  }
+  .formInput {
+    font-size: 1.75em;
+    margin-bottom: 2vh;
+  }
+  .submit {
+    font-size: 2em;
+  }
+  .contactForm {
+    padding: 2vh 15vw;
+  }
+  .header {
+    font-size: 7em;
+    text-align: center;
+  }
+  .desc {
+    font-size: 4em;
+    text-align: justify;
+  }
+  .imgWrapper {
+    width: 20%;
+    height: 20vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contactForm {
+    padding: 1vh 2vw;
+  }
+  .formLabel {
+    font-size: 1.25em;
+    margin-top: 1vh;
+  }
+  .formInput {
+    margin-bottom: 1vh;
+  }
+  .submit {
+    font-size: 1.25em;
+  }
+}
