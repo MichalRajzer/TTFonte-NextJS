@@ -5,7 +5,7 @@ import { useState } from "react";
 import { faCaretRight, faCaretLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const ImgCarousel = ({ images, num }) => {
+const ImgCarousel = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   /* Swipe detection */
   const [touchStart, setTouchStart] = useState(null);

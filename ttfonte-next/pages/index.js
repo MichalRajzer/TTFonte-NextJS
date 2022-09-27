@@ -46,7 +46,6 @@ export default function Home() {
               alt: "Freezer",
             },
           ]}
-          num={2}
         />
       </Layout>
     </>
