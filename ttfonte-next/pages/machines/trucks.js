@@ -11,7 +11,7 @@ export default function IceCream({}) {
           lineHeight: "92vh",
         }}
       >
-        This section isn't finished yet...
+        This section isn&apos;t finished yet...
       </h1>
     </Layout>
   );
