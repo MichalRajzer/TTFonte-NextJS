@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <Layout>
         <div className={`${styles.topHeadingWrapper} ${styles.stdPadding}`}>
-          <div className={styles.topImgWrapper}>
+          <div className={`${styles.topImgWrapper} ${styles.imgWrapper}`}>
             <Image
               src={"/imgs/stock/AdobeStock_40117273.webp"}
               layout="fill"
@@ -46,6 +46,46 @@ export default function Home() {
               alt: "Freezer",
             },
           ]}
+        />
+        <div className={`${styles.topHeadingWrapper} ${styles.stdPadding}`}>
+          <div className={`${styles.imgWrapper} ${styles.chocImgWrapper}`}>
+            <Image
+              src={"/imgs/stock/AdobeStock_80688105.webp"}
+              layout="fill"
+              objectFit="cover"
+              alt="Stock image of chocolate bars."
+            />
+          </div>
+          <h1
+            className={`${styles.stdHeading} ${styles.topHeading}`}
+            style={{ color: "#a3a3a3" }}
+          >
+            We have chocolate machines too!
+          </h1>
+        </div>
+        <div className={`${styles.stdPadding}`}>
+          <h2 className={`${styles.stdHeading}`}>
+            Chocolate is not only bars…
+          </h2>
+          <p className={`${styles.stdDesc}`}>
+            We have many different chocolate machines not only for bars, but
+            also bombons, drops, drages.
+          </p>
+        </div>
+        <ImgCarousel
+          images={[
+            {
+              url: "/imgs/teknoice/teknoline/650-780-1000/IMG_0047_contunnel.png",
+              link: "/",
+              alt: "Tunnel",
+            },
+            {
+              url: "/imgs/teknoice/teknofreeze/2x1000/2 flavs/_MG_0010_tr.png",
+              link: "/",
+              alt: "Freezer",
+            },
+          ]}
+          num={2}
         />
       </Layout>
     </>

@@ -1,10 +1,17 @@
-.topImgWrapper {
+.imgWrapper {
   position: absolute;
-  aspect-ratio: 375/250;
   z-index: -1;
   vertical-align: middle;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.topImgWrapper {
+  aspect-ratio: 375/250;
+}
+
+.chocImgWrapper {
+  aspect-ratio: 5314/3095;
 }
 
 .topImgWrapper > span {
@@ -44,7 +51,7 @@
     padding-top: 10vh;
     padding-bottom: 10vh;
   }
-  .topImgWrapper {
+  .imgWrapper {
     height: 92vh;
     transform: translateX(-30%);
   }
@@ -62,7 +69,7 @@
   .stdHeading {
     font-size: 7.5em;
   }
-  .topImgWrapper {
+  .imgWrapper {
     height: 100%;
     aspect-ratio: 375/250;
     align-items: center;
@@ -74,7 +81,7 @@
     margin: auto;
   }
 
-  .topImgWrapper > img {
+  .imgWrapper > img {
     margin-left: auto;
     margin-right: auto;
   }
@@ -97,7 +104,7 @@
 }
 
 @media screen and (max-width: 1550px) and (min-width: 1331px) {
-  .topImgWrapper {
+  .imgWrapper {
     width: 130%;
     top: 0;
     bottom: 0;
@@ -108,7 +115,7 @@
 }
 
 @media screen and (min-width: 1551px) {
-  .topImgWrapper {
+  .imgWrapper {
     top: 0;
     bottom: 0;
     left: 0;
