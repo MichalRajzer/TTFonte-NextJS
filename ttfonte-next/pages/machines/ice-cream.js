@@ -53,7 +53,7 @@ export default function IceCream({}) {
             <div className={styles.singleItem}>
               <div className={styles.imgWrapper}>
                 <Image
-                  src={"/imgs/teknoice/teknofreeze/800 lobe/_MG_0006tr.png"}
+                  src={"/imgs/teknoice/teknofreeze/800 Lobe/_MG_0006tr.png"}
                   layout="fill"
                   objectFit="contain"
                   alt="Image of the teknofreeze 800 freezer with lobe pump."
