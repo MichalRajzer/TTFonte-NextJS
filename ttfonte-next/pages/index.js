@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Layout>
-        <div className={styles.topHeadingWrapper}>
+        <div className={`${styles.topHeadingWrapper} ${styles.stdPadding}`}>
           <div className={styles.topImgWrapper}>
             <Image
               src={"/imgs/stock/AdobeStock_40117273.webp"}
@@ -16,13 +16,15 @@ export default function Home() {
               alt="Stock image of chocolate ice-cream."
             />
           </div>
-          <h1 className={styles.topHeading}>
+          <h1 className={`${styles.stdHeading} ${styles.topHeading}`}>
             Your source of ice-cream machines!
           </h1>
         </div>
-        <div>
-          <h2>There are many different kinds...</h2>
-          <p>
+        <div className={`${styles.stdPadding}`}>
+          <h2 className={`${styles.stdHeading}`}>
+            There are many different kinds...
+          </h2>
+          <p className={`${styles.stdDesc}`}>
             There are many different ice-cream machines, almost as many as
             flavours of ice-cream. There are freezers, extrusion lines,
             hardening tunnels, filling machines, mix plants and many more. Each
@@ -44,7 +46,7 @@ export default function Home() {
               alt: "Freezer",
             },
           ]}
-          num = {2}
+          num={2}
         />
       </Layout>
     </>
