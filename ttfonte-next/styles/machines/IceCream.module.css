@@ -1,0 +1,55 @@
+.stdPadding {
+  padding-top: 3vh;
+  padding-bottom: 10vh;
+}
+
+.dualImgWrapper {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.imgWrapper {
+  position: relative;
+}
+.singleItem {
+  width: 100%;
+}
+@media screen and (min-width: 769px) {
+  .stdHeading {
+    font-size: 7.5em;
+  }
+  .stdSubHeading {
+    font-size: 3em;
+  }
+  .stdDesc {
+    font-size: 2em;
+  }
+  .stdPadding {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+  .dualImgWrapper {
+    flex-direction: row;
+  }
+  .imgWrapper {
+    height: 60vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .stdPadding {
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+  .stdDesc {
+    font-size: 1.75em;
+  }
+  .dualImgWrapper {
+    flex-direction: column;
+  }
+  .imgWrapper {
+    height: 40vh;
+  }
+}
