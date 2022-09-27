@@ -19,7 +19,7 @@ export default function Chocolate({}) {
           />
         </div>
         <h2 className={styles.stdSubHeading} style={{ textAlign: "center" }}>
-          SOTU 10/50/100/180/300/600/1000/1200
+          SOTU 10/50/100/<br className={styles.mobileBreak}/>180/300/600/1000/1200
         </h2>
         <p className={styles.stdDesc}>
           Complete chocolate and spread cream process lines, with their capacity
