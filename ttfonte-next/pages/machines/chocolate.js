@@ -7,7 +7,7 @@ export default function IceCream({}) {
     <Layout>
       <div className={styles.stdPadding}>
         <h1 className={styles.stdHeading}>PACKINT s.r.l.</h1>
-        <h2 className={styles.stdSubHeading}>
+        <h2 className={styles.stdSubHeading} id="sotu">
           Chocolate and Spread Cream Process Lines:
         </h2>
         <div className={styles.bigImgWrapper}>
@@ -18,7 +18,7 @@ export default function IceCream({}) {
             alt="Images of the SOTU 50 machine from Packint Srl."
           />
         </div>
-        <h2 className={styles.stdSubHeading} style={{ textAlign: "center"}}>
+        <h2 className={styles.stdSubHeading} style={{ textAlign: "center" }}>
           SOTU 10/50/100/180/300/600/1000/1200
         </h2>
         <p className={styles.stdDesc}>
@@ -26,7 +26,11 @@ export default function IceCream({}) {
           indicated by their names.
         </p>
       </div>
-      <div className={styles.stdPadding} style={{ paddingBottom: "10vh" }}>
+      <div
+        className={styles.stdPadding}
+        style={{ paddingBottom: "10vh" }}
+        id="b2b"
+      >
         <h2 className={styles.stdSubHeading}>Bean to Bar Machines:</h2>
         <div className={styles.grid}>
           <div>
@@ -35,7 +39,7 @@ export default function IceCream({}) {
                 src={"/imgs/packint/Packint_DestonerPNG.png"}
                 layout="fill"
                 objectFit="contain"
-                alt="Images if the SOTU 50 machine from Packint Srl."
+                alt="Images if a Destoner"
               />
             </div>
             <h3 className={styles.stdDesc}>Destoner</h3>
