@@ -1,0 +1,62 @@
+.bigImgWrapper {
+  height: 75vh;
+  position: relative;
+}
+
+@media screen and (min-width: 769px) {
+  .stdHeading {
+    font-size: 7.5em;
+  }
+  .stdSubHeading {
+    font-size: 3em;
+  }
+  .stdDesc {
+    font-size: 2em;
+  }
+  .stdPadding {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+  .grid
+  {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    align-items: center;
+  }
+  .gridImg
+  {
+    position: relative;
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .stdHeading {
+    font-size: 4em;
+  }
+  .stdPadding {
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+  .stdSubHeading {
+
+  }
+  .stdDesc {
+    font-size: 1.75em;
+  }
+    .grid
+  {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    align-items: center;
+  }
+    .gridImg
+  {
+    position: relative;
+    height: 50vh;
+  }
+}
