@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Layout from "../components/Layout";
 import ImgCarousel from "../components/ImgCarousel";
+import blurryIce from "../components/BlurIceCream";
 
 export default function Home() {
   return (
@@ -14,6 +15,8 @@ export default function Home() {
               layout="fill"
               objectFit="cover"
               alt="Stock image of chocolate ice-cream."
+              placeholder="blur"
+              blurDataURL={blurryIce}
             />
           </div>
           <h1 className={`${styles.stdHeading} ${styles.topHeading}`}>
