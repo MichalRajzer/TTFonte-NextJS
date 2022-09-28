@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
       reCaptchaKey="6LcTojYiAAAAAIA2sOYLZI32ayTG1ndtvVseMTXO"
       scriptProps={{
         async: false,
-        defer: false,
+        defer: true,
         appendTo: "head",
         nonce: undefined,
       }}
