@@ -17,6 +17,7 @@ export default function Home() {
               alt="Stock image of chocolate ice-cream."
               placeholder="blur"
               blurDataURL={blurryIce}
+              priority="true"
             />
           </div>
           <h1 className={`${styles.stdHeading} ${styles.topHeading}`}>
