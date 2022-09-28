@@ -70,7 +70,7 @@ export default function Home() {
         <div className={`${styles.topHeadingWrapper} ${styles.stdPadding}`}>
           <div className={`${styles.imgWrapper} ${styles.chocImgWrapper}`}>
             <Image
-              src={"/imgs/stock/AdobeStock_80688105.webp"}
+              src={"/imgs/stock/AdobeStock_258202087.jpeg"}
               layout="fill"
               objectFit="cover"
               alt="Stock image of chocolate bars."
@@ -78,7 +78,7 @@ export default function Home() {
           </div>
           <h1
             className={`${styles.stdHeading} ${styles.topHeading}`}
-            style={{ color: "#a3a3a3" }}
+            style={{ color: "#fff" }}
           >
             We have chocolate machines too!
           </h1>
