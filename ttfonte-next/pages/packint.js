@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Packint({}) {
   return (
-    <Layout>
+    <Layout title="Packint s.r.l.">
       <div className={styles.stdPadding}>
         <h1 className={styles.header}>
           <Link href="https://www.laief.it/?lang=en"> Packint s.r.l.</Link>

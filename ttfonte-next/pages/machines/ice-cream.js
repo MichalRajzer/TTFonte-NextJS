@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function IceCream({}) {
   return (
-    <Layout>
+    <Layout title="Ice cream machines">
       <div className={styles.stdPadding}>
         <div>
           <h1 className={styles.stdHeading} id="teknomix">

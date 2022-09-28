@@ -2,7 +2,7 @@ import Layout from "../components/Layout";
 
 export default function ColdCar({}) {
   return (
-    <Layout>
+    <Layout title="Cold car">
       <h1
         style={{
           height: "92vh",

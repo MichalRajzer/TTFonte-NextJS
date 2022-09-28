@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Teknoice({}) {
   return (
-    <Layout>
+    <Layout title="Teknoice S.r.l.">
       <div className={styles.stdPadding}>
         <h1 className={styles.header}>
           <Link href="https://www.teknoice.com/"> Teknoice S.r.l. </Link>

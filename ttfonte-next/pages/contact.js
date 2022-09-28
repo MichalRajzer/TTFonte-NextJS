@@ -49,7 +49,7 @@ export default function Contact() {
     [executeRecaptcha]
   );
   return (
-    <Layout>
+    <Layout title="Contact us!">
       <form onSubmit={handleSubmit} className={styles.contactForm}>
         <label className={styles.formLabel} htmlFor="email">
           Your email adress &#40;so we can respond to Your message&#41;.

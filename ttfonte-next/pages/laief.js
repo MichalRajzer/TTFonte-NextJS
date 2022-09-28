@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Laief({}) {
   return (
-    <Layout>
+    <Layout title="L.A.I.e.F.">
       <div className={styles.stdPadding}>
         <h1 className={styles.header}>
           <Link href="https://www.laief.it/?lang=en"> L.A.I.e.F. </Link>

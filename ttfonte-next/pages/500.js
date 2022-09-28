@@ -17,7 +17,7 @@ export default function FiveHundred({}) {
     }, 1000);
   }, [redirectSeconds]);
   return (
-    <Layout>
+    <Layout title="Internal error">
       <h1
         style={{
           height: "92vh",

@@ -17,7 +17,7 @@ export default function FourOhFour({}) {
     }, 1000);
   }, [redirectSeconds]);
   return (
-    <Layout>
+    <Layout title="Page not found">
       <h1
         style={{
           height: "92vh",

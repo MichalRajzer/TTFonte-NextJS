@@ -2,7 +2,7 @@ import Layout from "../../components/Layout";
 
 export default function Trucks({}) {
   return (
-    <Layout>
+    <Layout title="Truck">
       <h1
         style={{
           height: "92vh",

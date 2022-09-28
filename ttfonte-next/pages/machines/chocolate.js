@@ -4,7 +4,7 @@ import styles from "../../styles/machines/Chocolate.module.css";
 
 export default function Chocolate({}) {
   return (
-    <Layout>
+    <Layout title="Chocolate machines">
       <div className={styles.stdPadding}>
         <h1 className={styles.stdHeading}>PACKINT s.r.l.</h1>
         <h2 className={styles.stdSubHeading} id="sotu">
