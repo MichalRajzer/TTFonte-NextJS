@@ -40,7 +40,7 @@ export default function Navbar ({}) {
         <div className={styles.logoWrapper}>
           <Link href="/">
             <a hrefto="/">
-              <Image src="/logo/logo.svg" layout="fill" alt="TTFonte Logo"/>
+              <Image src="/logo/logo.svg" layout="fill" alt="TTFonte Logo" />
             </a>
           </Link>
         </div>
@@ -66,7 +66,7 @@ export default function Navbar ({}) {
               </div>
               <div className={styles.dropDiv}>
                 <Link href="/laief" className={styles.navLink}>
-                  Laief
+                  L.A.I.e.F.
                 </Link>
               </div>
               <div className={styles.dropDiv}>
