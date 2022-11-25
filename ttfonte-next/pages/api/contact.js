@@ -33,7 +33,7 @@ async function sendEmail(req, res) {
     }
     try {
       await sendgrid.send({
-        to: "michal.rajzer03+personalSiteContact@gmail.com", // Your email where you'll receive emails
+        to: process.env.CONTACT_EMAIL, // Your email where you'll receive emails
         from: "contact@em7988.ttfonte.com", // your website email address here
         subject: TagRemover(subject),
         html: `${TagRemover(content)}`,
