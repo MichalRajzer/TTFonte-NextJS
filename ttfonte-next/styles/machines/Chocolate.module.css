@@ -4,15 +4,6 @@
 }
 
 @media screen and (min-width: 769px) {
-  .stdHeading {
-    font-size: 7.5em;
-  }
-  .stdSubHeading {
-    font-size: 3em;
-  }
-  .stdDesc {
-    font-size: 2em;
-  }
   .stdPadding {
     padding-left: 10vw;
     padding-right: 10vw;
@@ -57,5 +48,31 @@
   }
   .mobileBreak {
     display: inline;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1299px) {
+  .stdDesc {
+    font-size: 1.75em;
+    text-align: justify;
+  }
+  .stdHeading {
+    font-size: 5em;
+  }
+  .stdSubHeading {
+    font-size: 2em;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .stdDesc {
+    font-size: 3em;
+    text-align: justify;
+  }
+  .stdHeading {
+    font-size: 7.5em;
+  }
+  .stdSubHeading {
+    font-size: 3em;
   }
 }
