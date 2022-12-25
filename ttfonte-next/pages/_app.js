@@ -1,8 +1,9 @@
-import '../styles/globals.css'
+import "../styles/globals.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 config.autoAddCss = false;
 import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
+import ChristmasPupup from "../components/ChristmasPupup";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -15,9 +16,10 @@ function MyApp({ Component, pageProps }) {
         nonce: undefined,
       }}
     >
+      <ChristmasPupup />
       <Component {...pageProps} />
     </GoogleReCaptchaProvider>
   );
 }
 
-export default MyApp
+export default MyApp;
