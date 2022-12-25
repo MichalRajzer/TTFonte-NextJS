@@ -15,7 +15,9 @@
 }
 .singleItem {
   width: 100%;
+  padding: 0 3vw;
 }
+
 @media screen and (min-width: 769px) {
   .stdPadding {
     padding-left: 10vw;
@@ -47,24 +49,24 @@
 
 @media screen and (min-width: 769px) and (max-width: 1299px) {
   .stdDesc {
-    font-size: 1.75em;
+    font-size: 1.2em;
     text-align: justify;
   }
   .stdHeading {
-    font-size: 5em;
+    font-size: 4em;
   }
   .stdSubHeading {
-    font-size: 2em;
+    font-size: 1.6em;
   }
 }
 
 @media screen and (min-width: 1300px) {
   .stdDesc {
-    font-size: 3em;
+    font-size: 2.4em;
     text-align: justify;
   }
   .stdHeading {
-    font-size: 7.5em;
+    font-size: 6em;
   }
   .stdSubHeading {
     font-size: 3em;
