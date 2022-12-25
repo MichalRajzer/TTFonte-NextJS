@@ -18,10 +18,10 @@
     padding-right: 10vw;
   }
   .header {
-    font-size: 5em;
+    font-size: 4em;
   }
   .desc {
-    font-size: 1.75em;
+    font-size: 1.2em;
   }
   .imgWrapper {
     width: 20%;
@@ -36,11 +36,11 @@
     padding-top: 5vh;
   }
   .header {
-    font-size: 4em;
+    font-size: 6em;
     text-align: center;
   }
   .desc {
-    font-size: 1.2em;
+    font-size: 1.75em;
     text-align: justify;
   }
   .imgWrapper {
