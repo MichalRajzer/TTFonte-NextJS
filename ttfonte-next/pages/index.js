@@ -20,9 +20,13 @@ export default function Home() {
               priority="true"
             />
           </div>
-          <h1 className={`${styles.stdHeading} ${styles.topHeading}`}>
-            Your source of ice-cream machines!
-          </h1>
+          <div className={`${styles.stdHeading} ${styles.topHeading}`}>
+            <div>
+              <h1 style={{ fontSize: "1em" }}>Your source</h1>{" "}
+              <h1 style={{ fontSize: "1em" }}>of</h1>{" "}
+              <h1 style={{ fontSize: "1em" }}>ice cream machines!</h1>
+            </div>
+          </div>
         </div>
         <div className={`${styles.stdPadding}`}>
           <h2 className={`${styles.stdHeading}`}>
