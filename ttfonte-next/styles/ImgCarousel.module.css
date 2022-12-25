@@ -1,7 +1,7 @@
 .carousel {
   position: relative;
-  margin: 0 10vw;
-  height: 80vh;
+  margin: 5vh 10vw;
+  height: 60vh;
   color: #4f4f4f;
 }
 
@@ -12,12 +12,12 @@
 .rightCaret {
   position: absolute;
 }
-  .rightClickDiv {
+.rightClickDiv {
   cursor: pointer;
-  }
-  .leftClickDiv {
+}
+.leftClickDiv {
   cursor: pointer;
-  }
+}
 .imgWrapper {
   height: 100%;
   width: 100%;
@@ -25,7 +25,7 @@
 
 @media screen and (max-width: 768px) {
   .carousel {
-    margin: 0 2vw;
+    margin: 5vh 2vw;
   }
   .rightCaret {
     display: none;
@@ -53,7 +53,7 @@
 
 @media screen and (min-width: 769px) {
   .carousel {
-    margin: 0 10vw;
+    margin: 5vh 10vw;
   }
   .rightCaret {
     padding: 20px;
