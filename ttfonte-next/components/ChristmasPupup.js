@@ -22,7 +22,15 @@ export default function ChristmasPupup() {
       >
         <button
           onClick={() => setShow(false)}
-          style={{ background: "unset", border: "unset" }}
+          style={{
+            background: "unset",
+            border: "unset",
+            width: "100%",
+            height: "100%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
         >
           <div
             style={{
