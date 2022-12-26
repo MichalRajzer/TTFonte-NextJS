@@ -6,7 +6,6 @@ import Link from "next/link";
 export default function Packint({}) {
   return (
     <Layout title="Packint s.r.l.">
-      {" "}
       <div
         style={{
           display: "flex",
@@ -17,7 +16,7 @@ export default function Packint({}) {
       >
         <div className={styles.stdPadding}>
           <h1 className={styles.header}>
-            <Link href="https://www.laief.it/?lang=en"> Packint s.r.l.</Link>
+            <Link href="https://packint.com/"> Packint s.r.l.</Link>
           </h1>
           <p className={styles.desc}>
             Packint s.r.l. has been operating in the chocolate machinery sector
