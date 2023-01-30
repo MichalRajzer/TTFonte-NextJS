@@ -36,7 +36,7 @@ async function sendEmail(req, res) {
         to: process.env.CONTACT_EMAIL, // Your email where you'll receive emails
         from: "contact@em7988.ttfonte.com", // your website email address here
         subject: TagRemover(subject),
-        html: `${TagRemover(content)}`,
+        html: `Email: ${TagRemover(email)}\n${TagRemover(content)}`,
       });
     } catch (error) {
       console.log(error);
