@@ -61,11 +61,11 @@
   }
   .stdDesc {
     font-size: 1.75em;
-    text-align:justify;
+    text-align: justify;
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1330px) {
+@media screen and (min-width: 769px) and (max-width: 1200px) {
   .stdHeading {
     font-size: 7.5em;
   }
@@ -87,34 +87,38 @@
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 769px) and (max-width: 1299px) {
+  .stdPadding {
+    padding-left: 15vw;
+    padding-right: 15vw;
+  }
+  .stdDesc {
+    font-size: 1.2em;
+    text-align: justify;
+  }
+  .stdHeading {
+    font-size: 4em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+}
+
+@media screen and (min-width: 1300px) {
   .stdPadding {
     padding-left: 15vw;
     padding-right: 15vw;
   }
   .stdDesc {
     font-size: 3em;
-    text-align:justify;
+    text-align: justify;
   }
   .stdHeading {
-    font-size: 7.5em;
+    font-size: 6em;
     padding-top: 10vh;
     padding-bottom: 10vh;
   }
 }
-
-@media screen and (max-width: 1550px) and (min-width: 1331px) {
-  .imgWrapper {
-    width: 130%;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-  }
-}
-
-@media screen and (min-width: 1551px) {
+@media screen and (min-width: 1200px) {
   .imgWrapper {
     top: 0;
     bottom: 0;

@@ -3,21 +3,28 @@
   margin-left: auto;
   margin-right: auto;
   align-items: center;
+  height: 5vh;
+}
+.header {
+  text-align: center;
+  margin-bottom: 5vh;
+}
+.desc {
+  margin: 5vh 0;
+  text-align: justify;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 769px) and (max-width: 1299px) {
   .stdPadding {
     padding-top: 5vh;
     padding-left: 10vw;
     padding-right: 10vw;
   }
   .header {
-    font-size: 7em;
-    text-align: center;
+    font-size: 4em;
   }
   .desc {
-    font-size: 4em;
-    text-align: justify;
+    font-size: 1.2em;
   }
   .imgWrapper {
     width: 20%;
@@ -32,15 +39,28 @@
     padding-top: 5vh;
   }
   .header {
-    font-size: 3em;
+    font-size: 6em;
     text-align: center;
   }
   .desc {
-    font-size: 1em;
+    font-size: 1.75em;
     text-align: justify;
   }
   .imgWrapper {
     width: 80%;
-    height: 20vh;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .stdPadding {
+    padding-top: 5vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+  .header {
+    font-size: 6em;
+  }
+  .desc {
+    font-size: 2.4em;
   }
 }
