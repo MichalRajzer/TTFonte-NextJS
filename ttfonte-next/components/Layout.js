@@ -20,8 +20,10 @@ export default function Layout({ title, children, lang, description }) {
         <meta
           name="og:description"
           content={description ? description : "TT fonte website"}
-          key="desc"
+          key="og:description"
         />
+        <meta name="og:url" content="https://ttfonte.com" key="og:url" />
+        <meta name="og:image" content="https://ttfonte.com/api/logoOgImg" />
         <meta property="og:locale" content="en_GB" />
       </Head>
       <Navbar />
