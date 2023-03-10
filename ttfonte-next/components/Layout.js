@@ -1,21 +1,31 @@
 import Navbar from "./Navbar";
 import Head from "next/head";
-import styles from "../styles/Layout.module.css"
+import styles from "../styles/Layout.module.css";
 
-
-export default function Layout({title, children, lang})
-{
-    return (
-      <div>
-        <Head>
-          {title ? <title>{title}</title> : <title>TT fonte website</title>}
-          <meta
-            name="viewport"
-            content="initial-scale=1.0, width=device-width"
-          />
-        </Head>
-        <Navbar />
-        <div className={styles.content}>{children}</div>
-      </div>
-    );
+export default function Layout({ title, children, lang, description }) {
+  return (
+    <div>
+      <Head>
+        <title>{title ? title : "TT fonte website"}</title>
+        <meta
+          property="og:title"
+          content={title ? title : "TT fonte website"}
+        />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta
+          name="description"
+          content={description ? description : "TT fonte website"}
+          key="desc"
+        />
+        <meta
+          name="og:description"
+          content={description ? description : "TT fonte website"}
+          key="desc"
+        />
+        <meta property="og:locale" content="en_GB" />
+      </Head>
+      <Navbar />
+      <div className={styles.content}>{children}</div>
+    </div>
+  );
 }
