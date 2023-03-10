@@ -23,7 +23,7 @@ export default function Layout({ title, children, lang, description }) {
           key="og:description"
         />
         <meta name="og:url" content="https://ttfonte.com" key="og:url" />
-        <meta name="og:image" content="https://ttfonte.com/api/logoOgImg" />
+        <meta name="og:image" content="/logo/logo.png" />
         <meta property="og:locale" content="en_GB" />
       </Head>
       <Navbar />
