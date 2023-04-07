@@ -1,5 +1,6 @@
 import Image from "next/image";
-import christmasCard from "../public/imgs/fonte_2022_christmas.png";
+// import christmasCard from "../public/imgs/fonte_2022_christmas.png";
+import christmasCard from "../public/imgs/fonte_2023_easter.png";
 import { useState } from "react";
 
 export default function ChristmasPupup() {
@@ -34,9 +35,10 @@ export default function ChristmasPupup() {
         >
           <div
             style={{
-              width: "80vw",
-              aspectRatio: "839 / 420",
+              width: "53vw",
+              aspectRatio: "1024 / 643",
               position: "relative",
+              background: "white",
             }}
           >
             <Image src={christmasCard} objectFit="cover" />
