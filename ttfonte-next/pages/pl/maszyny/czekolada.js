@@ -34,7 +34,7 @@ export default function Chocolate({}) {
         id="b2b"
       >
         <h2 className={styles.stdSubHeading}>
-          Urządzenia pozwalające na produkcję od ziarna do tabliczki:
+          Urządzenia pozwalające na produkcję czekolady od ziarna do tabliczki:
         </h2>
         <div className={styles.grid}>
           <div>

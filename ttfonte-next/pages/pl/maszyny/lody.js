@@ -221,7 +221,7 @@ export default function IceCream({}) {
               />
             </div>
             <p className={styles.stdDesc}>
-              Od 1 do 12 rzędów, z opcją automtycznego usuwania pustych lub
+              Od 1 do 12 rzędów, z opcją automatycznego usuwania pustych lub
               nieprzeciętych opakowań.
             </p>
           </div>
