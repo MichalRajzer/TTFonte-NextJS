@@ -175,7 +175,7 @@ export default function IceCream({}) {
               </div>
               <h3 className={styles.stdSubHeading}>TEKNOLINE 4, 6, and 9</h3>
               <p className={styles.stdDesc}>
-                From 4000 to 9000 pcs/h, good for snadwiches, ball cones, and
+                From 4000 to 9000 pcs/h, good for sandwiches, ball cones, and
                 products on a stick
               </p>
             </div>
