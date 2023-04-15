@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Laief({}) {
   return (
-    <Layout title="L.A.I.e.F.">
+    <Layout title="L.A.I.e.F." lang="pl">
       <div
         style={{
           display: "flex",

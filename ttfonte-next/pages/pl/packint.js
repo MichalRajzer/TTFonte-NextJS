@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Packint({}) {
   return (
-    <Layout title="Packint s.r.l.">
+    <Layout title="Packint s.r.l." lang="pl">
       <div
         style={{
           display: "flex",

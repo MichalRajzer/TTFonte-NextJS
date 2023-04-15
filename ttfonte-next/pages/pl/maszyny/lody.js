@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function IceCream({}) {
   return (
-    <Layout title="Maszyny do produkcji lodów.">
+    <Layout title="Maszyny do produkcji lodów." lang="pl">
       <div className={styles.stdPadding}>
         <div>
           <h1 className={styles.stdHeading} id="teknomix">

@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function ColdCar({}) {
   return (
-    <Layout title="Cold car">
+    <Layout title="Cold car" lang="pl">
       <div
         style={{
           display: "flex",

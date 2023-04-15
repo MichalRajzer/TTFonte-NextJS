@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Teknoice({}) {
   return (
-    <Layout title="Teknoice S.r.l.">
+    <Layout title="Teknoice S.r.l." lang="pl">
       <div
         style={{
           display: "flex",

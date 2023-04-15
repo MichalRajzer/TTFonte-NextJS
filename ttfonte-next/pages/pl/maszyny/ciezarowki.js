@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Trucks({}) {
   return (
-    <Layout title="Refrigerated Bodies">
+    <Layout title="Zabudowy chłodnicze" lang="pl">
       <div className={styles.stdPadding}>
         <h1 className={styles.stdHeading} id="teknomix">
           Izotermy samochodowe

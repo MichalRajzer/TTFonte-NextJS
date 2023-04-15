@@ -49,7 +49,7 @@ export default function Contact() {
     [executeRecaptcha]
   );
   return (
-    <Layout title="Contact us!">
+    <Layout title="Kontakt!" lang="pl">
       <form onSubmit={handleSubmit} className={styles.contactForm}>
         <label className={styles.formLabel} htmlFor="email">
           Twój adres emailowy &#40;żebyśmy mogli odpowiedzieć na Twoją
@@ -60,7 +60,7 @@ export default function Contact() {
           name="email"
           id="email"
           className={styles.formInput}
-          placeholder="Your email"
+          placeholder="Twój email"
           required
         />
         <label className={styles.formLabel} htmlFor="subject">

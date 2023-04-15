@@ -8,7 +8,8 @@ export default function Home() {
   return (
     <Layout
       title="Strona internetowa TT Fonte"
-      description={"TT Fonte jest twoim źródłem maszyn do lodów!"}
+      description="TT Fonte jest twoim źródłem maszyn do lodów!"
+      lang="pl"
     >
       <div className={`${styles.topHeadingWrapper} ${styles.stdPadding}`}>
         <div className={`${styles.topImgWrapper} ${styles.imgWrapper}`}>
