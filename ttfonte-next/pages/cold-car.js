@@ -30,14 +30,14 @@ export default function ColdCar({}) {
           </h1>
           <p className={styles.desc}>
             The refrigerated body with eutectic plates became popular in the
-            market thanks to its efficiency for the distribution of ice cream
-            and frozen food. The process is simple: a bank of cold energy is
-            stored during the night thanks to the Refrigerating Unit, powered by
-            electric energy, which freezes the eutectic solution contained in
-            the plates. During the day the solution begins to thaw, releasing
-            the cold accumulated before, in order to balance the heat losses
-            caused by the opening of the doors, preserving the products in the
-            full respect of the ATP and HACCP regulations
+            market thanks to its efficiency in distributing ice cream and frozen
+            food. The process is simple: a bank of cold energy is stored during
+            the night thanks to the Refrigerating Unit, powered by electric
+            energy, freeing the eutectic solution in the plates. During the day
+            the solution begins to thaw, releasing the cold accumulated before,
+            in order to balance the heat losses caused by the opening of the
+            doors, preserving the products in the full respect of the ATP and
+            HACCP regulations
           </p>
         </div>
       </div>
