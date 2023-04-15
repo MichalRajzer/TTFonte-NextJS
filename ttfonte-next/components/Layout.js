@@ -27,7 +27,7 @@ export default function Layout({ title, children, lang, description }) {
         <meta name="og:image" content="/logo/logo.png" />
         <meta property="og:locale" content="en_GB" />
       </Head>
-      <ChristmasPupup />
+      {/* <ChristmasPupup /> */}
       <Navbar lang={lang} />
       <div className={styles.content}>{children}</div>
     </div>
