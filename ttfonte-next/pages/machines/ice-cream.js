@@ -87,10 +87,12 @@ export default function IceCream({}) {
             </div>
           </div>
         </div>
+        {/*TODO: Add teknofreeze CO2 */}
         <div>
           <h1 className={styles.stdHeading} id="teknofill">
             TEKNOFILL
           </h1>
+          {/*TODO: Add new rotary filling machine and move teknofill 4000 to aux */}
           <h2 className={styles.stdSubHeading}>Filling lines:</h2>
           <div className={styles.dualImgWrapper}>
             <div className={styles.singleItem}>
@@ -200,6 +202,7 @@ export default function IceCream({}) {
           </h1>
           <h2 className={styles.stdSubHeading}>Wrapping machines:</h2>
           <div className={styles.singleItem}>
+            {/*TODO: Add smaller wrapping machine*/}
             <div className={styles.imgWrapper}>
               <Image
                 src={"/imgs/teknoice/teknowrap/IMG_1604-Btr.png"}
@@ -258,7 +261,12 @@ export default function IceCream({}) {
               </div>
               <h3 className={styles.stdSubHeading}>Fruit Feeder 1200/3000</h3>
             </div>
+            {/*
+            TODO: Add riple pump Teknoice
+            Add cake machine Laief
+            */}
           </div>
+          {/*TODO: Add section sandwich machine Laief*/}
         </div>
       </div>
     </Layout>
