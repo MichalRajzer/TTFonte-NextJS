@@ -242,10 +242,10 @@ export default function IceCream({}) {
                   }
                   layout="fill"
                   objectFit="contain"
-                  alt="Image of the fruit feeder machine."
+                  alt="Image of the cf3."
                 />
               </div>
-              <h3 className={styles.stdSubHeading}>Fruit Feeder 1200/3000</h3>
+              <h3 className={styles.stdSubHeading}>CF3</h3>
             </div>
             <div className={styles.singleItem}>
               <div className={styles.imgWrapper}>
@@ -253,10 +253,10 @@ export default function IceCream({}) {
                   src={"/imgs/teknoice/aux_/DF3000_2_hr.png"}
                   layout="fill"
                   objectFit="contain"
-                  alt="Image of the cf3."
+                  alt="Image of the fruit feeder machine."
                 />
               </div>
-              <h3 className={styles.stdSubHeading}>CF3</h3>
+              <h3 className={styles.stdSubHeading}>Fruit Feeder 1200/3000</h3>
             </div>
           </div>
         </div>
