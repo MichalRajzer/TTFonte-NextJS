@@ -15,8 +15,18 @@ export default function ColdCar({}) {
         }}
       >
         <div className={styles.stdPadding}>
-          <h1 className={styles.header}>
-            <Link href="https://coldcar.com/en/"> Cold Car s.r.l.</Link>
+          <h1
+            className={styles.header}
+            style={{ position: "relative", height: "10vw" }}
+          >
+            <Link href="https://coldcar.com/en/">
+              <Image
+                src={"/imgs/coldcar/logo-header.png"}
+                layout="fill"
+                objectFit="contain"
+                alt="The logo of Cold car s.r.l."
+              />
+            </Link>
           </h1>
           <p className={styles.desc}>
             The refrigerated body with eutectic plates became popular in the
@@ -29,14 +39,6 @@ export default function ColdCar({}) {
             caused by the opening of the doors, preserving the products in the
             full respect of the ATP and HACCP regulations
           </p>
-          <div className={styles.imgWrapper}>
-            <Image
-              src={"/imgs/coldcar/logo-header.png"}
-              layout="fill"
-              objectFit="contain"
-              alt="The logo of Cold car s.r.l."
-            />
-          </div>
         </div>
       </div>
     </Layout>

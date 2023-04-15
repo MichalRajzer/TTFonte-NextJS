@@ -15,8 +15,18 @@ export default function Teknoice({}) {
         }}
       >
         <div className={styles.stdPadding}>
-          <h1 className={styles.header}>
-            <Link href="https://www.teknoice.com/"> Teknoice S.r.l. </Link>
+          <h1
+            className={styles.header}
+            style={{ position: "relative", height: "10vw" }}
+          >
+            <Link href="https://www.teknoice.com/">
+              <Image
+                src={"/imgs/teknoice/TeknoICE Logo.png"}
+                layout="fill"
+                objectFit="contain"
+                alt="The logo of Teknoice s.r.l."
+              />
+            </Link>
           </h1>
           <p className={styles.desc}>
             TEKNOICE is one of the largest Italian manufacturers of industrial
@@ -28,14 +38,6 @@ export default function Teknoice({}) {
             manufacturing complete lines: from pasteurisation to filling,
             extrusion and hardening tunnels.
           </p>
-          <div className={styles.imgWrapper}>
-            <Image
-              src={"/imgs/teknoice/TeknoICE Logo.png"}
-              layout="fill"
-              objectFit="contain"
-              alt="The logo of LAIeF"
-            />
-          </div>
         </div>
       </div>
     </Layout>
