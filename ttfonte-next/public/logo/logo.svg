@@ -8,7 +8,7 @@
                         clip-path: url(#clip-path);
                       }
                       .cls-3 {
-                        fill: #0b2b78;
+                        fill: #3464eb;
                       }
                     </style>
                     <clipPath id="clip-path" transform="translate(-36 -70.87)">
