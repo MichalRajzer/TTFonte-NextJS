@@ -13,25 +13,47 @@ export default function Navbar({ lang }) {
           &nbsp;{lang === "pl" ? "Urządzenia!" : "Machines!"}
           <div className={styles.dropdown}>
             <div className={styles.dropDiv}>
-              <Link href="/machines/ice-cream" className={styles.navLink}>
-                {lang === "pl" ? "" : "Ice cream machines"}
+              <Link
+                href={
+                  lang === "pl" ? "/pl/maszyny/lody" : "/machines/ice-cream"
+                }
+                className={styles.navLink}
+              >
+                {lang === "pl" ? "Maszyny do lodów" : "Ice cream machines"}
               </Link>
             </div>
             <div className={styles.dropDiv}>
-              <Link href="/machines/chocolate" className={styles.navLink}>
-                {lang === "pl" ? "" : "Chocolate machines"}
+              <Link
+                href={
+                  lang === "pl"
+                    ? "/pl/maszyny/czekolada"
+                    : "/machines/chocolate"
+                }
+                className={styles.navLink}
+              >
+                {lang === "pl" ? "Maszyny do czekolady" : "Chocolate machines"}
               </Link>
             </div>
             <div className={styles.dropDiv}>
-              <Link href="/machines/trucks" className={styles.navLink}>
-                {lang === "pl" ? "" : "Refrigerated trucks"}
+              <Link
+                href={
+                  lang === "pl" ? "/pl/maszyny/ciezarowki" : "/machines/trucks"
+                }
+                className={styles.navLink}
+              >
+                {lang === "pl"
+                  ? "Ciężarówki chłodnicze"
+                  : "Refrigerated trucks"}
               </Link>
             </div>
           </div>
         </li>
         <li className={styles.navItem}>
-          <Link href="/contact" className={styles.navLink}>
-            {lang === "pl" ? "Kontakt z nami!" : "Contact us!"}
+          <Link
+            href={lang === "pl" ? "/pl/kontakt" : "/contact"}
+            className={styles.navLink}
+          >
+            {lang === "pl" ? "Kontakt!" : "Contact us!"}
           </Link>
         </li>
       </ul>
