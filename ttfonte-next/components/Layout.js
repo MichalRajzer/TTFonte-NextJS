@@ -26,8 +26,10 @@ const LanguageSwitcher = ({ lang }) => {
     "/teknoice": "/pl/teknoice",
     "/pl/packint": "/packint",
     "/packint": "/pl/packint",
-    "/pl/coldcar": "/coldcar",
-    "/coldcar": "/pl/coldcar",
+    "/pl/cold-car": "/cold-car",
+    "/cold-car": "/pl/cold-car",
+    "/404": "/404",
+    "/500": "/500",
   };
 
   let page = router.asPath.split("#")[0];
