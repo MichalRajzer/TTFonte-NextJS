@@ -15,8 +15,20 @@ export default function Packint({}) {
         }}
       >
         <div className={styles.stdPadding}>
-          <h1 className={styles.header}>
-            <Link href="https://packint.com/"> Packint s.r.l.</Link>
+          <h1
+            className={styles.header}
+            style={{ position: "relative", height: "6vw" }}
+          >
+            <Link href="https://packint.com/">
+              <a>
+                <Image
+                  src={"/imgs/packint/packint-chocolate-machines-logo.png"}
+                  layout="fill"
+                  objectFit="contain"
+                  alt="The logo of Packint s.r.l."
+                />
+              </a>
+            </Link>
           </h1>
           <p className={styles.desc}>
             Packint s.r.l. has been operating in the chocolate machinery sector
@@ -28,14 +40,6 @@ export default function Packint({}) {
             complete pilot plant from cacao beans to chocolate bars and chips
             for tests and training.
           </p>
-          <div className={styles.imgWrapper}>
-            <Image
-              src={"/imgs/packint/packint-chocolate-machines-logo.png"}
-              layout="fill"
-              objectFit="contain"
-              alt="The logo of LAIeF"
-            />
-          </div>
         </div>
       </div>
     </Layout>

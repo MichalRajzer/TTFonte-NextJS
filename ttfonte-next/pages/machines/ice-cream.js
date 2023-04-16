@@ -87,10 +87,12 @@ export default function IceCream({}) {
             </div>
           </div>
         </div>
+        {/*TODO: Add teknofreeze CO2 */}
         <div>
           <h1 className={styles.stdHeading} id="teknofill">
             TEKNOFILL
           </h1>
+          {/*TODO: Add new rotary filling machine and move teknofill 4000 to aux */}
           <h2 className={styles.stdSubHeading}>Filling lines:</h2>
           <div className={styles.dualImgWrapper}>
             <div className={styles.singleItem}>
@@ -173,7 +175,7 @@ export default function IceCream({}) {
               </div>
               <h3 className={styles.stdSubHeading}>TEKNOLINE 4, 6, and 9</h3>
               <p className={styles.stdDesc}>
-                From 4000 to 9000 pcs/h, good for snadwiches, ball cones, and
+                From 4000 to 9000 pcs/h, good for sandwiches, ball cones, and
                 products on a stick
               </p>
             </div>
@@ -200,6 +202,7 @@ export default function IceCream({}) {
           </h1>
           <h2 className={styles.stdSubHeading}>Wrapping machines:</h2>
           <div className={styles.singleItem}>
+            {/*TODO: Add smaller wrapping machine*/}
             <div className={styles.imgWrapper}>
               <Image
                 src={"/imgs/teknoice/teknowrap/IMG_1604-Btr.png"}
@@ -242,10 +245,10 @@ export default function IceCream({}) {
                   }
                   layout="fill"
                   objectFit="contain"
-                  alt="Image of the fruit feeder machine."
+                  alt="Image of the cf3."
                 />
               </div>
-              <h3 className={styles.stdSubHeading}>Fruit Feeder 1200/3000</h3>
+              <h3 className={styles.stdSubHeading}>CF3</h3>
             </div>
             <div className={styles.singleItem}>
               <div className={styles.imgWrapper}>
@@ -253,12 +256,17 @@ export default function IceCream({}) {
                   src={"/imgs/teknoice/aux_/DF3000_2_hr.png"}
                   layout="fill"
                   objectFit="contain"
-                  alt="Image of the cf3."
+                  alt="Image of the fruit feeder machine."
                 />
               </div>
-              <h3 className={styles.stdSubHeading}>CF3</h3>
+              <h3 className={styles.stdSubHeading}>Fruit Feeder 1200/3000</h3>
             </div>
+            {/*
+            TODO: Add riple pump Teknoice
+            Add cake machine Laief
+            */}
           </div>
+          {/*TODO: Add section sandwich machine Laief*/}
         </div>
       </div>
     </Layout>

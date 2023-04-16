@@ -31,9 +31,6 @@ export default function Home() {
         </div>
       </div>
       <div className={`${styles.stdPadding}`}>
-        <h2 className={`${styles.stdHeading}`}>
-          There are many different kinds...
-        </h2>
         <p className={`${styles.stdDesc}`}>
           There are many different ice-cream machines, almost as many as
           flavours of ice-cream. There are freezers, extrusion lines, hardening
@@ -90,14 +87,13 @@ export default function Home() {
           className={`${styles.stdHeading} ${styles.topHeading}`}
           style={{ color: "#fff" }}
         >
-          We have chocolate machines too!
+          Chocolate is the best companion for ice cream.
         </h1>
       </div>
       <div className={`${styles.stdPadding}`}>
-        <h2 className={`${styles.stdHeading}`}>Chocolate is not only bars…</h2>
         <p className={`${styles.stdDesc}`}>
-          We have many different chocolate machines not only for bars, but also
-          bombons, drops, drages.
+          We have many different chocolate machines not only for ice cream, but
+          also bonbons, drops, dragées.
         </p>
       </div>
       <ImgCarousel
@@ -125,6 +121,27 @@ export default function Home() {
         ]}
         num={2}
       />
+      <div className={`${styles.topHeadingWrapper} ${styles.stdPadding}`}>
+        <div className={`${styles.imgWrapper} ${styles.chocImgWrapper}`}>
+          <Image
+            src={"/imgs/coldcar/_DSP2358_PS_HR.jpg"}
+            layout="fill"
+            objectFit="cover"
+            alt="Image of two ColdCar cold cars."
+          />
+        </div>
+        <h1
+          className={`${styles.stdHeading} ${styles.topHeading}`}
+          style={{ color: "#fff" }}
+        >
+          Once the product is ready, You need to transport it safely.
+        </h1>
+      </div>
+      <div className={`${styles.stdPadding}`}>
+        <p className={`${styles.stdDesc}`}>
+          We offer a wide range of cold cars, from small 1.5m³ to giant 30m³.
+        </p>
+      </div>
     </Layout>
   );
 }
