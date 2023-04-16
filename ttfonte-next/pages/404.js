@@ -7,7 +7,7 @@ export default function FourOhFour({}) {
   const router = useRouter();
   useEffect(() => {
     if (redirectSeconds == 0) {
-      router.push('/');
+      router.push("/");
       return;
     }
 
