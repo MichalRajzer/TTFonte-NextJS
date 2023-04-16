@@ -20,12 +20,14 @@ export default function ColdCar({}) {
             style={{ position: "relative", height: "10vw" }}
           >
             <Link href="https://coldcar.com/en/">
-              <Image
-                src={"/imgs/coldcar/logo-header.png"}
-                layout="fill"
-                objectFit="contain"
-                alt="The logo of Cold car s.r.l."
-              />
+              <a>
+                <Image
+                  src={"/imgs/coldcar/logo-header.png"}
+                  layout="fill"
+                  objectFit="contain"
+                  alt="The logo of Cold car s.r.l."
+                />
+              </a>
             </Link>
           </h1>
           <p className={styles.desc}>
