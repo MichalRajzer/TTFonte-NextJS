@@ -1,5 +1,5 @@
 import Layout from "../../components/Layout";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import styles from "../../styles/machines/Chocolate.module.css";
 
 export default function Chocolate({}) {

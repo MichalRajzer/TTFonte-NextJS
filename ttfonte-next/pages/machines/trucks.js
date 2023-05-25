@@ -1,6 +1,6 @@
 import Layout from "../../components/Layout";
 import styles from "../../styles/machines/IceCream.module.css";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 export default function Trucks({}) {
   return (

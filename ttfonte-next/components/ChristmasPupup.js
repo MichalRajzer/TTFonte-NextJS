@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 // import christmasCard from "../public/imgs/fonte_2022_christmas.png";
 import christmasCard from "../public/imgs/fonte_2023_easter.png";
 import { useState } from "react";
