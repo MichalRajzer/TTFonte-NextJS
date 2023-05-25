@@ -65,25 +65,30 @@ export default function Layout({ title, children, lang, description }) {
   return (
     <div className={OpenSans.variable}>
       <Head>
-        <title>{title ? title : "TT fonte website"}</title>
-        <meta
-          property="og:title"
-          content={title ? title : "TT fonte website"}
-        />
+        <title>{title ? title : "TT Fonte"}</title>
+        <meta property="og:title" content={title ? title : "TT Fonte"} />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
           name="description"
-          content={description ? description : "TT fonte website"}
+          content={description ? description : "TT Fonte"}
           key="desc"
         />
         <meta
           name="og:description"
-          content={description ? description : "TT fonte website"}
+          content={description ? description : "TT Fonte"}
           key="og:description"
         />
         <meta name="og:url" content="https://ttfonte.com" key="og:url" />
         <meta name="og:image" content="/logo/logo.png" />
         <meta property="og:locale" content="en_GB" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:title" content="TT Fonte" />
+        <meta property="twitter:image" content="/logo/logo.png" />
+        <meta property="twitter:domain" content="ttfonte.com" />
+        <meta
+          name="twitter:description"
+          content={description ? description : "TT Fonte"}
+        />
       </Head>
       {/* <ChristmasPupup /> */}
       <Navbar lang={lang} />
