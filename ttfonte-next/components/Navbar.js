@@ -18,7 +18,7 @@ export default function Navbar({ lang }) {
                   lang === "pl" ? "/pl/maszyny/lody" : "/machines/ice-cream"
                 }
                 className={styles.navLink}
-              >
+                legacyBehavior>
                 {lang === "pl" ? "Maszyny do lodów" : "Ice cream machines"}
               </Link>
             </div>
@@ -30,7 +30,7 @@ export default function Navbar({ lang }) {
                     : "/machines/chocolate"
                 }
                 className={styles.navLink}
-              >
+                legacyBehavior>
                 {lang === "pl" ? "Maszyny do czekolady" : "Chocolate machines"}
               </Link>
             </div>
@@ -40,7 +40,7 @@ export default function Navbar({ lang }) {
                   lang === "pl" ? "/pl/maszyny/ciezarowki" : "/machines/trucks"
                 }
                 className={styles.navLink}
-              >
+                legacyBehavior>
                 {lang === "pl"
                   ? "Ciężarówki chłodnicze"
                   : "Refrigerated trucks"}
@@ -52,21 +52,24 @@ export default function Navbar({ lang }) {
           <Link
             href={lang === "pl" ? "/pl/kontakt" : "/contact"}
             className={styles.navLink}
-          >
+            legacyBehavior>
             {lang === "pl" ? "Kontakt!" : "Contact us!"}
           </Link>
         </li>
       </ul>
       <div className={styles.logoWrapper}>
-        <Link href={lang === "pl" ? "/pl/" : "/"}>
-          <a hrefto={lang === "pl" ? "/pl/" : "/"}>
-            <Image src="/logo/logo.svg" layout="fill" alt="TTFonte Logo" />
-          </a>
+        <Link href={lang === "pl" ? "/pl/" : "/"} hrefto={lang === "pl" ? "/pl/" : "/"}>
+
+          <Image src="/logo/logo.svg" layout="fill" alt="TTFonte Logo" />
+
         </Link>
       </div>
       <ul className={styles.navList}>
         <li className={styles.navItem}>
-          <Link href={lang === "pl" ? "/pl/" : "/"} className={styles.navLink}>
+          <Link
+            href={lang === "pl" ? "/pl/" : "/"}
+            className={styles.navLink}
+            legacyBehavior>
             {lang === "pl" ? "O nas!" : "About us!"}
           </Link>
         </li>

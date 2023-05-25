@@ -20,14 +20,14 @@ export default function Packint({}) {
             style={{ position: "relative", height: "6vw" }}
           >
             <Link href="https://packint.com/">
-              <a>
-                <Image
-                  src={"/imgs/packint/packint-chocolate-machines-logo.png"}
-                  layout="fill"
-                  objectFit="contain"
-                  alt="The logo of Packint s.r.l."
-                />
-              </a>
+
+              <Image
+                src={"/imgs/packint/packint-chocolate-machines-logo.png"}
+                layout="fill"
+                objectFit="contain"
+                alt="The logo of Packint s.r.l."
+              />
+
             </Link>
           </h1>
           <p className={styles.desc}>

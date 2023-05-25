@@ -49,14 +49,14 @@ const ImgCarousel = ({ images }) => {
     >
       <div className={styles.imgWrapper}>
         <Link href={images[currentIndex].link}>
-          <a>
-            <Image
-              src={images[currentIndex].url}
-              alt={currentIndex}
-              layout="fill"
-              objectFit="contain"
-            />
-          </a>
+
+          <Image
+            src={images[currentIndex].url}
+            alt={currentIndex}
+            layout="fill"
+            objectFit="contain"
+          />
+
         </Link>
       </div>
       <div onClick={incrementIndex} className={styles.leftClickDiv}>

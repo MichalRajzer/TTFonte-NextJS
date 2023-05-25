@@ -20,14 +20,14 @@ export default function Laief({}) {
             style={{ position: "relative", height: "5vw" }}
           >
             <Link href="https://www.laief.it/?lang=en" passHref>
-              <a>
-                <Image
-                  src={"/imgs/laief/logo-laief-ice-cream-machines.png"}
-                  layout="fill"
-                  objectFit="contain"
-                  alt="Logo firmy LAIeF"
-                />
-              </a>
+
+              <Image
+                src={"/imgs/laief/logo-laief-ice-cream-machines.png"}
+                layout="fill"
+                objectFit="contain"
+                alt="Logo firmy LAIeF"
+              />
+
             </Link>
           </h1>
           <p className={styles.desc}>

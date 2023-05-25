@@ -20,14 +20,14 @@ export default function Teknoice({}) {
             style={{ position: "relative", height: "10vw" }}
           >
             <Link href="https://www.teknoice.com/">
-              <a>
-                <Image
-                  src={"/imgs/teknoice/TeknoICE Logo.png"}
-                  layout="fill"
-                  objectFit="contain"
-                  alt="Logo firmy Teknoice s.r.l."
-                />
-              </a>
+
+              <Image
+                src={"/imgs/teknoice/TeknoICE Logo.png"}
+                layout="fill"
+                objectFit="contain"
+                alt="Logo firmy Teknoice s.r.l."
+              />
+
             </Link>
           </h1>
           <p className={styles.desc}>
