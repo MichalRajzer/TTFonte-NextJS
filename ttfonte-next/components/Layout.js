@@ -4,10 +4,17 @@ import styles from "../styles/Layout.module.css";
 import ChristmasPupup from "./ChristmasPupup";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import { Open_Sans } from "next/font/google";
+
+export const OpenSans = Open_Sans({
+  subsets: ["latin-ext", "latin"],
+  weights: [300, 400, 700],
+  variable: "--main-font",
+});
 
 const LanguageSwitcher = ({ lang }) => {
   const router = useRouter();
-  console.log(lang);
+  // console.log(lang);
 
   let paths = {
     "/": "/pl",
@@ -56,7 +63,7 @@ const LanguageSwitcher = ({ lang }) => {
 
 export default function Layout({ title, children, lang, description }) {
   return (
-    <div>
+    <div className={OpenSans.variable}>
       <Head>
         <title>{title ? title : "TT fonte website"}</title>
         <meta
