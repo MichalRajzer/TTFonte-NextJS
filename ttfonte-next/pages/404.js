@@ -15,7 +15,7 @@ export default function FourOhFour({}) {
       console.log(redirectSeconds);
       setRedirectSeconds((redirectSeconds) => redirectSeconds - 1);
     }, 1000);
-  }, [redirectSeconds]);
+  }, [redirectSeconds, router]);
   return (
     <Layout title="Page not found">
       <h1

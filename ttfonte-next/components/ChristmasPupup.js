@@ -41,7 +41,11 @@ export default function ChristmasPupup() {
               background: "white",
             }}
           >
-            <Image src={christmasCard} objectFit="cover" />
+            <Image
+              src={christmasCard}
+              objectFit="cover"
+              alt="TT Fonte christmas package"
+            />
           </div>
         </button>
       </div>
